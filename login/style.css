@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pxfuel.jpg);
+}
+
+form{
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 50;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-radius: 10%;
+    letter-spacing: 1px;
+    margin-bottom: 2 ;
+
+
+}
+h1{
+    text-align: center;
+    color:white
+
+}
+label{
+    color: white;
+    margin-left: 6%;
+    margin-bottom: 5%;
+    cursor:text;
+}
+a{
+    color: aqua;
+    margin-left: 6%;
+}
+input{
+    font-size: medium;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    width: 70%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 10);
+    cursor: text;
+}
+button{
+    width: 20%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    outline: none;
+    border: none;
+    border-radius: 6rem;
+}
