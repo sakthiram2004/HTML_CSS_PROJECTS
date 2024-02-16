@@ -1,0 +1,80 @@
+.logincontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./src/assets/back.jpg") no-repeat center/contain;
+}
+.formcontainer{
+    background-color:rgba(245, 245, 245, 0.205);
+    height: 15em;
+    width: 20em;
+    border-radius: 1em 0px 1em 0px;
+
+    
+}
+.username input{
+    height: 2em;
+    width: 15em;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px whitesmoke;
+
+}
+.username input::placeholder{
+    font-size: large;
+    color: black;
+
+}
+.pass input{
+    height: 2em;
+    width: 15em;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px whitesmoke;
+}
+.pass input::placeholder{
+    font-size: large;
+    color: black;
+}
+.welcome{
+    margin-top: 2em;
+    margin-left: 7em;
+    color: yellow;
+}
+.username{
+    margin-top: 1em;
+    margin-left: 3em;
+    
+}
+.pass{
+    margin-top: 1em;
+    margin-left: 3em;
+}
+.submit{
+    margin-top: 1em;
+    margin-left: 8em;
+}
+.submit button{
+    width: 5em;
+    height: 2em;
+    border: none;
+    border-radius: 2em;
+    background-color: yellow;
+    font-size: 1em;
+    font-weight: 600;
+}
+input:focus{
+    outline: none;
+    
+    border-bottom: solid 1px yellow;
+    color: aliceblue;
+    font-size: large;
+    
+}
+.usericon{
+    margin-right: 1em;
+}
+.passicon{
+    margin-right: 1em;
+}
